@@ -117,18 +117,18 @@ Abaixo está a estrutura básica do projeto:
 financial_api_resource /
 ├── app.py               # Arquivo principal
 ├── database/            # Pasta do Banco de dados
-│   ├── db.sqlite3       # Banco de dados
+│   └── db.sqlite3       # Banco de dados
 ├── log/                 # Pasta de logs
-│   ├── app.log          # logs
+│   └── app.log          # logs
 ├── models/              # Definições do banco de dados
 │   ├── __init__.py      # Inicialização do banco
-│   ├── table.py         # Definição das tabelas
-├── ├── schemas/         # Definição dos endpoints
+│   └── table.py         # Definição das tabelas
+├── schemas/             # Definição dos endpoints
 │   ├── __init__.py      # Inicialização dos endpoints
+│   └── table.py         # Definição das tabelas
 ├── requirements.txt     # Dependências do projeto
 ├── Dockerfile           # Configuração do container
-├── README.md            # Documentação
-└── logs/                # Arquivos de logs
+└── README.md            # Documentação
 ```
 
 ---
