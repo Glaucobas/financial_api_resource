@@ -1,4 +1,4 @@
-# API Resurce
+# API Resource
 
 O objetivo da construção desta API é modularizar o projeto, dividindo a aplicação em microserviços. Cada microserviço é capaz de trabalhar de forma independente com suas requisições. A API possui um banco de dados próprio (SQLite) e gerencia todas as operações de gravação, atualização e remoção de dados.
 
