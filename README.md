@@ -69,12 +69,12 @@ pip install -r requirements.txt
 ### **6. Executar a API**
 Após instalar as dependências, execute a aplicação:
 ```bash
-flask run --host 0.0.0.0 --port 5000 --reload
+flask run --host 0.0.0.0 --port 5003 --reload
 ```
 
 Se tudo estiver configurado corretamente, a API será inicializada e estará acessível no endereço:
 ```
-http://127.0.0.1:5000
+http://127.0.0.1:5003
 ```
 
 ---
@@ -93,7 +93,7 @@ docker build -t financial_api_resource .
 ### **3. Executar o Container**
 Para rodar o container criado:
 ```bash
-docker run -d -p 5003:5000 --name financial_api_resource financial_api_resource
+docker run -d -p 5003:5003 --name financial_api_resource financial_api_resource
 ```
 
 ### **4. Verificar o Status do Container**
